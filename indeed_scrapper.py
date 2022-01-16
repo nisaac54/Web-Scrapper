@@ -4,8 +4,6 @@ import csv
 import http.client
 import os.path
 
-import re
-
 filename = 'indeed_results.csv'
 file = open(filename, 'w', encoding = 'utf8', newline = '')
 writer = csv.writer(file)
